@@ -19,6 +19,10 @@
 			"type": "string",
 			"defaultValue": "https://covidreportingharishdl.dfs.core.windows.net/"
 		},
+		"tr_ingest_population_data_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/a17ac80f-435b-4cde-a2be-3c7dc7894c41/resourceGroups/Covid_reporting_Harish/providers/Microsoft.Storage/storageAccounts/covidreportingharish"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -54,6 +58,9 @@
 					},
 					"ls_adls_covidreportingharishdl_properties_typeProperties_url": {
 						"value": "[parameters('ls_adls_covidreportingharishdl_properties_typeProperties_url')]"
+					},
+					"tr_ingest_population_data_properties_typeProperties_scope": {
+						"value": "[parameters('tr_ingest_population_data_properties_typeProperties_scope')]"
 					}
 				}
 			},
