@@ -14,6 +14,9 @@
 		"ls_adls_covidreportingharishdl_properties_typeProperties_url": {
 			"value": "https://covidreportingharishdl.dfs.core.windows.net/"
 		},
+		"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
+			"value": "https://github.com"
+		},
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"value": "/subscriptions/a17ac80f-435b-4cde-a2be-3c7dc7894c41/resourceGroups/Covid_reporting_Harish/providers/Microsoft.Storage/storageAccounts/covidreportingharish"
 		}
