@@ -17,14 +17,14 @@
 		"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
 			"value": "https://ecdc.blob.core.windows.net"
 		},
-		"tr_ingest_population_data_properties_typeProperties_scope": {
-			"value": "/subscriptions/a17ac80f-435b-4cde-a2be-3c7dc7894c41/resourceGroups/Covid_reporting_Harish/providers/Microsoft.Storage/storageAccounts/covidreportingharish"
-		},
 		"tr_ingest_hospital_admissions_data_properties_pl_ingest_ecdc_data_parameters_sourceRelativeURL": {
 			"value": "covid19/hospital_admissions.csv"
 		},
 		"tr_ingest_hospital_admissions_data_properties_pl_ingest_ecdc_data_parameters_sinkFileName": {
 			"value": "hospital_admissions.csv"
+		},
+		"tr_ingest_population_data_properties_typeProperties_scope": {
+			"value": "/subscriptions/a17ac80f-435b-4cde-a2be-3c7dc7894c41/resourceGroups/Covid_reporting_Harish/providers/Microsoft.Storage/storageAccounts/covidreportingharish"
 		},
 		"containerUri": {
 			"value": ""
