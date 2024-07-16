@@ -848,6 +848,7 @@
 						"     skipDuplicateMapOutputs: true) ~> SelectForSink",
 						"SelectForSink sink(allowSchemaDrift: true,",
 						"     validateSchema: false,",
+						"     rowUrlColumn:'country_code_3_digit',",
 						"     umask: 0022,",
 						"     preCommands: [],",
 						"     postCommands: [],",
